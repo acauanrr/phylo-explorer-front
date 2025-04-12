@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: false,
-  assetPrefix: "/phylo",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/phylo" : "",
   publicRuntimeConfig: {
-    basePath: "/phylo",
+    basePath: process.env.NODE_ENV === "production" ? "/phylo" : "",
   },
 };
 

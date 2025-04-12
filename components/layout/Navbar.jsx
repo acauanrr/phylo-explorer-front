@@ -11,7 +11,6 @@ import {
   DrawerHeader,
   DrawerBody,
   Image,
-  // Link as LinkChakra,
   VStack,
   HStack,
   DrawerCloseButton,
@@ -24,9 +23,7 @@ import {
   TableContainer,
   Text,
 } from "@chakra-ui/react";
-// import NextLink from "next/link";
 import Logo from "../_ui/Logo";
-
 import { FiMenu } from "react-icons/fi";
 import InfoMenu from "./InfoMenu";
 import FileUploadNew from "../_ui/FileUploadNew";
@@ -123,17 +120,6 @@ export default function Navbar() {
           />
         </Box>
         <Flex justifyContent="center" w={{ base: "full", md: "fit-content" }}>
-          {/* <NextLink href="/" title="Phylo-Explorer" passHref>
-            <LinkChakra>
-              <Logo
-                src={`${
-                  process.env.NODE_ENV === "production" ? "/phylo" : ""
-                }/images/logo/logo-phylo.png`}
-                w={40}
-              />
-            </LinkChakra>
-          </NextLink> */}
-
           <Link href="/" color="blue.400" _hover={{ color: "blue.500" }}>
             <Logo
               src={`${

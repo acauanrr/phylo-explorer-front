@@ -61,6 +61,7 @@ export default function PhyloExplorer() {
   }
 
   function createLegend(colorData) {
+    d3.select(d3legend.current).html("");
     legendSVG = d3.select(d3legend.current);
 
     legendMenu = (legendSVG) => {

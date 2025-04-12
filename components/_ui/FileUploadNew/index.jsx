@@ -143,7 +143,7 @@ export default function FileUploadNew({ onClose }) {
                       size="sm"
                       px={4}
                       py={5}
-                      disabled={!isDone}
+                      isDisabled={!isDone}
                       onClick={onClose}
                     >
                       Show Visualizations
@@ -190,7 +190,7 @@ export default function FileUploadNew({ onClose }) {
             disabled={isDone}
             isLoading={isLoading}
           >
-            Upload
+            Run NLP Pipeline
           </Button>
         </HStack>
       </VStack>

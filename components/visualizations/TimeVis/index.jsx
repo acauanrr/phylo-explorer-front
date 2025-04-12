@@ -35,16 +35,10 @@ export default function TimeVis() {
       .join("g")
       // .attr("transform", `translate(50, 2)`);
       .attr("transform", (d, i) => {
-        console.log(i);
-        console.log(d.values.length);
-        console.log(years.length);
         return `translate(${
-          50 +
-          (50 + d.values.length * (years.length < 8 ? 7 : 1.7) * i + 1) * i
+          50 + (50 + d.values.length * (years.length < 8 ? 7 : 1.7) * i + 1) * i
         }, 2)`; //palmas para mim
       });
-
-   
 
     year
       .append("text")

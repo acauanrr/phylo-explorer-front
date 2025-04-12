@@ -5,11 +5,7 @@ export const metadata = {
   description:
     "Framework for the analysis and visualization of data by phylogenetic trees",
   author: "Acauan C. Ribeiro",
-  icons: {
-    icon: `${
-      process.env.NODE_ENV === "production" ? "/phylo" : ""
-    }/favicon/favicon.ico`,
-  },
+  // icons: "favicon.ico",
 };
 
 export default function RootLayout({ children }) {
