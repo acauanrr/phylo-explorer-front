@@ -1,5 +1,5 @@
-## Veja a aplicação rodando:
-[Link URL Phylo-Explorer](https://phylo-explorer-b067f3bc1920.herokuapp.com/)
+## Veja a aplicação rodando (URL):
+[phylo-explorer-b067f3bc1920.herokuapp.com](https://phylo-explorer-b067f3bc1920.herokuapp.com/)
 
 # phylo-explorer
 
