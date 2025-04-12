@@ -2,11 +2,7 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: false,
-  assetPrefix: process.env.NODE_ENV === "production" ? "/phylo" : "",
-  publicRuntimeConfig: {
-    basePath: process.env.NODE_ENV === "production" ? "/phylo" : "",
-  },
+  swcMinify: false
 };
 
 module.exports = nextConfig;
