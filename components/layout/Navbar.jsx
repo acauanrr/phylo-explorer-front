@@ -122,9 +122,7 @@ export default function Navbar() {
         <Flex justifyContent="center" w={{ base: "full", md: "fit-content" }}>
           <Link href="/" color="blue.400" _hover={{ color: "blue.500" }}>
             <Logo
-              src={`${
-                process.env.NODE_ENV === "production" ? "/phylo" : ""
-              }/images/logo/logo-phylo.png`}
+              src={`/images/logo/logo-phylo.png`}
               w={40}
             />
           </Link>
@@ -134,9 +132,7 @@ export default function Navbar() {
           <Button
             leftIcon={
               <Image
-                src={`${
-                  process.env.NODE_ENV === "production" ? "/phylo" : ""
-                }/icons/database.png`}
+                src={`/icons/database.png`}
                 alt="db"
                 w={5}
               />
@@ -180,9 +176,7 @@ export default function Navbar() {
                 <Flex borderBottomWidth="1px" w="75%" pb={2}>
                   <Box>
                     <Image
-                      src={`${
-                        process.env.NODE_ENV === "production" ? "/phylo" : ""
-                      }/images/input-pipeline.png`}
+                      src={`/images/input-pipeline.png`}
                       alt="pipe"
                       w={700}
                     />

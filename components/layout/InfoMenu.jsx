@@ -80,11 +80,7 @@ export default function InfoMenu() {
                             rel="noopener noreferrer"
                           >
                             <Image
-                              src={`${
-                                process.env.NODE_ENV === "production"
-                                  ? "/phylo"
-                                  : ""
-                              }/icons/lattes.png`}
+                              src={`/icons/lattes.png`}
                               alt="lt"
                               w={4}
                             />
@@ -102,11 +98,7 @@ export default function InfoMenu() {
                             rel="noopener noreferrer"
                           >
                             <Image
-                              src={`${
-                                process.env.NODE_ENV === "production"
-                                  ? "/phylo"
-                                  : ""
-                              }/icons/lattes.png`}
+                              src={`/icons/lattes.png`}
                               alt="lt"
                               w={4}
                             />
@@ -124,11 +116,7 @@ export default function InfoMenu() {
                             rel="noopener noreferrer"
                           >
                             <Image
-                              src={`${
-                                process.env.NODE_ENV === "production"
-                                  ? "/phylo"
-                                  : ""
-                              }/icons/lattes.png`}
+                              src={`/icons/lattes.png`}
                               alt="lt"
                               w={4}
                             />
@@ -137,31 +125,6 @@ export default function InfoMenu() {
                       </HStack>
                     </VStack>
                   </Box>
-
-                  {/* <HStack
-                    w="full"
-                    lineHeight="10"
-                    _hover={{ bg: "gray.100", cursor: "pointer" }}
-                    onClick={() => {
-                      alert("Instructions");
-                      onClose();
-                    }}
-                  >
-                    <Icon as={HiOutlineDocumentText} mx={1} />
-                    <Text>Instructions</Text>
-                  </HStack> */}
-                  {/* <HStack
-                    w="full"
-                    lineHeight="10"
-                    _hover={{ bg: "gray.100", cursor: "pointer" }}
-                    onClick={() => {
-                      alert("About");
-                      onClose();
-                    }}
-                  >
-                    <Icon as={HiInformationCircle} mx={1} />
-                    <Text>About</Text>
-                  </HStack> */}
                 </VStack>
               </PopoverBody>
             </PopoverContent>
