@@ -69,7 +69,7 @@ export default function FileUploadNew({ onClose }) {
 
     formData.append("file", selectedFilePipe);
 
-    fetch(`${urls[process.env.NODE_ENV]}/upload/files`, {
+    fetch(`${urls[process.env.NODE_ENV]}upload/files`, {
       method: "POST",
       body: formData,
     })

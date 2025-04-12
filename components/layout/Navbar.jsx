@@ -44,39 +44,27 @@ async function createFile(path, name, type) {
 const sampleFiles = [
   {
     fileName: "01_All_the_News_70.csv",
-    src: `${
-      process.env.NODE_ENV === "production" ? "/phylo" : ""
-    }/datasets/csv/01_All_the_News_70.csv`,
+    src: `/datasets/csv/01_All_the_News_70.csv`,
   },
   {
     fileName: "01_All_the_News_185.csv",
-    src: `${
-      process.env.NODE_ENV === "production" ? "/phylo" : ""
-    }/datasets/csv/01_All_the_News_185.csv`,
+    src: `/datasets/csv/01_All_the_News_185.csv`,
   },
   {
     fileName: "01_All_the_News_300.csv",
-    src: `${
-      process.env.NODE_ENV === "production" ? "/phylo" : ""
-    }/datasets/csv/01_All_the_News_300.csv`,
+    src: `/datasets/csv/01_All_the_News_300.csv`,
   },
   {
     fileName: "05_sb_FakeNews_Class_50.csv",
-    src: `${
-      process.env.NODE_ENV === "production" ? "/phylo" : ""
-    }/datasets/csv/05_sb_FakeNews_Class_50.csv`,
+    src: `/datasets/csv/05_sb_FakeNews_Class_50.csv`,
   },
   {
     fileName: "05_sb_FakeNews_Class_100.csv",
-    src: `${
-      process.env.NODE_ENV === "production" ? "/phylo" : ""
-    }/datasets/csv/05_sb_FakeNews_Class_100.csv`,
+    src: `/datasets/csv/05_sb_FakeNews_Class_100.csv`,
   },
   {
     fileName: "05_sb_FakeNews_Class_100_fakelabels.csv",
-    src: `${
-      process.env.NODE_ENV === "production" ? "/phylo" : ""
-    }/datasets/csv/05_sb_FakeNews_Class_100_fakelabels.csv`,
+    src: `/datasets/csv/05_sb_FakeNews_Class_100_fakelabels.csv`,
   },
 ];
 
