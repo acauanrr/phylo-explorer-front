@@ -1,5 +1,5 @@
 ## Veja a aplicação rodando:
-[Link URL Phylo-Explorer](https://phylo-explorer-b067f3bc1920.herokuapp.com/){:title="Link URL Phylo-Explorer"}{:target="_blank"}
+[Link URL Phylo-Explorer](https://phylo-explorer-b067f3bc1920.herokuapp.com/)
 
 # phylo-explorer
 
