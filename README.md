@@ -1,3 +1,6 @@
+## Veja a aplicação rodando:
+[Link Open Phylo-Explorer](https://phylo-explorer-b067f3bc1920.herokuapp.com/)
+
 # phylo-explorer
 
 In recent years, with the increase in the availability of data, the need for efficient representation of information increased. Information Visualization has special importance due to its aim on assisting the user in the interpretation of data. Some data change over time, this feature may produce a problem of loss of visual stability in the context. The user often loses information by not being able to track and distinguish the changes that may
